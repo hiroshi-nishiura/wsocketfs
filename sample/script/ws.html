@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebSocket Test</title>
+    <script src="{{static_url('ws.js')}}"></script>
+    <style>
+      .fbox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+    </style>
+  </head>
+  <body onload="onload()" class="fbox">
+    <h1><div id="title">foo</div></h1>
+    <div id="src"></div>
+    <canvas id="c0" width=0 height=0></canvas>
+    <div id="dst"></div>
+    <canvas id="c1" width=0 height=0></canvas>
+    <div id="result"></div>
+    <div id="bottom"></div>
+  </body>
+</html>
