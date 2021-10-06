@@ -208,7 +208,7 @@ class ClientHandler(WebSocketHandler):
 class WebHandler(RequestHandler):
     def get(self):
         if self.request.uri == '/':
-            self.render('ws.html')
+            self.render('display.html')
 
 
 # Create tornado application and supply URL routes

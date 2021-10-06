@@ -1,5 +1,5 @@
 /*
-  Smple WebSocket File System
+  Smple WebSocket Server
  */
 #include "wsocket.h"
 #include "base64.h" // https://github.com/joedf/base64.c.git
